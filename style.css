@@ -355,3 +355,154 @@ button:active {
   margin-top: 20px;
   border-radius: 7px;
 }
+
+.tech-lang {
+  list-style-type: none;
+}
+
+.desktop-links {
+  display: none;
+}
+
+.img2 {
+  display: none;
+}
+
+.img3 {
+  display: none;
+}
+
+@media (min-width: 475px) {
+
+  body {
+    width: 100vw; 
+  }
+
+  .footer-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width:768px) {
+
+  nav img {
+          display: none;
+  }
+
+  .desktop-links {
+    display: flex;
+    list-style: none; 
+   
+  }
+  
+  .desktop-links li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: normal;
+    font-family: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color:#344563;
+    margin-right: 32px;
+    text-decoration: none;
+  }
+
+  .br {
+    display: none;
+  }
+ 
+  .headline p {
+    width: fit-content;
+    margin-bottom: 20px;
+  }
+
+  .headline {
+    border-radius: 0 0 0 50px;
+    background-image: url("./Images/Header.png");
+    padding: 200px;
+  }
+
+  body {
+    background-color: #e5e5e5;
+  }
+
+  .card {
+    display: grid;
+     grid-template-columns: 1fr 1fr; 
+     gap: 25px;
+    
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .img3 {
+    display: block;
+  }
+
+  .card h2, .card p {
+    width: fit-content;
+  }
+
+  .About {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+
+  .About p, .About h3, .About ul {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+ 
+  .skills {
+    margin-top: 60px;
+  }
+
+  .tech-lang {
+    flex-direction: row;
+  }
+
+  .tech1, .tech2, .tech3 {
+    flex-direction: column;
+  }
+
+  .footer-wrap p {
+    width: 500px;
+    text-align: center;
+  }
+
+  .footer-wrap {
+    background-image: url("./Images/contact.png");
+    background-position: center;
+  }
+}
+
+@media (min-width: 975px) {
+  
+  .img2 {
+    display: block;
+  }
+
+  .img3 {
+    display: none;
+  }
+
+  .Works-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    
+  }
+
+  .card {
+    max-width: 1000px;
+  }
+  
+  .About {
+    padding-inline: 100px;
+  }
+}

@@ -198,11 +198,14 @@ button {
 }
 
 .skills h6 {
-  position: absolute;
-  padding: 45px;
-  margin: 19px;
+  /* position: absolute; */
+
+  /* padding: 45px; */
+
+  /* margin: 19px; */
   margin-top: 0;
-  padding-top: 20px;
+
+  /* padding-top: 20px; */
   color: #253858;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -268,7 +271,7 @@ button:active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: contain;
   background-position-x: 170px;
 }
@@ -373,9 +376,8 @@ button:active {
 }
 
 @media (min-width: 475px) {
-
   body {
-    width: 100vw; 
+    width: 100vw;
   }
 
   .footer-wrap {
@@ -386,25 +388,23 @@ button:active {
   }
 }
 
-@media (min-width:768px) {
-
+@media (min-width: 768px) {
   nav img {
-          display: none;
+    display: none;
   }
 
   .desktop-links {
     display: flex;
-    list-style: none; 
-   
+    list-style: none;
   }
-  
+
   .desktop-links li a {
     font-family: 'Poppins', sans-serif;
-    font-size: normal;
-    font-family: 500;
+    font-weight: normal;
+    font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color:#344563;
+    color: #344563;
     margin-right: 32px;
     text-decoration: none;
   }
@@ -412,7 +412,7 @@ button:active {
   .br {
     display: none;
   }
- 
+
   .headline p {
     width: fit-content;
     margin-bottom: 20px;
@@ -420,7 +420,7 @@ button:active {
 
   .headline {
     border-radius: 0 0 0 50px;
-    background-image: url("./Images/Header.png");
+    background-image: url(./Images/contact-form-backgroundshapes@2x-desktop1.png);
     padding: 200px;
   }
 
@@ -430,9 +430,8 @@ button:active {
 
   .card {
     display: grid;
-     grid-template-columns: 1fr 1fr; 
-     gap: 25px;
-    
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
   }
 
   .img1 {
@@ -443,7 +442,8 @@ button:active {
     display: block;
   }
 
-  .card h2, .card p {
+  .card h2,
+  .card p {
     width: fit-content;
   }
 
@@ -452,20 +452,21 @@ button:active {
     grid-template-columns: 2fr 3fr;
   }
 
-  .About p, .About h3, .About ul {
-    margin-top: 25px;
-    margin-bottom: 25px;
+  .About p,
+  .About h3,
+  .About ul {
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: 3px;
   }
- 
+
   .skills {
     margin-top: 60px;
   }
 
-  .tech-lang {
-    flex-direction: row;
-  }
-
-  .tech1, .tech2, .tech3 {
+  .tech1,
+  .tech2,
+  .tech3 {
     flex-direction: column;
   }
 
@@ -474,14 +475,62 @@ button:active {
     text-align: center;
   }
 
-  .footer-wrap {
-    background-image: url("./Images/contact.png");
+  .footer {
+    background-image: url(./Images/contact-form-backgroundshapes@2x-desktop6.png);
     background-position: center;
+  }
+
+  .form {
+    display: flex;
+    align-items: center;
+  }
+
+  #name,
+  #email {
+    width: 300px;
+    padding: 14px;
+  }
+
+  #msg {
+    width: 300px;
+    padding: 14px;
+  }
+
+  .tech-lang {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .tech2,
+  .tech3 {
+    padding-right: 21px;
+  }
+
+  .skills .bar1 {
+    padding-right: 370px;
+  }
+
+  .skills .bar2 {
+    padding-right: 370px;
+  }
+
+  .skills .bar3 {
+    padding-right: 433px;
+  }
+
+  .skill-img {
+    width: 519px;
   }
 }
 
 @media (min-width: 975px) {
-  
   .img2 {
     display: block;
   }
@@ -491,17 +540,16 @@ button:active {
   }
 
   .Works-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .card {
     max-width: 1000px;
   }
-  
+
   .About {
     padding-inline: 100px;
   }

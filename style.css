@@ -49,11 +49,35 @@
 }
 
 @keyframes h2 {
-  0% { background-color: gray; left: 0; right: 0; }
-  25% { background-color: gray; left: 200px; right: 0; }
-  50% { background-color: gray; left: 200px; right: 200px; }
-  75% { background-color: gray; left: 0; right: 200px; }
-  100% { background-color: gray; left: 0; right: 0; }
+  0% {
+    background-color: white;
+    left: 0;
+    right: 0;
+  }
+
+  25% {
+    background-color: white;
+    left: 200px;
+    right: 0;
+  }
+
+  50% {
+    background-color: white;
+    left: 200px;
+    right: 200px;
+  }
+
+  75% {
+    background-color: white;
+    left: 0;
+    right: 200px;
+  }
+
+  100% {
+    background-color: white;
+    left: 0;
+    right: 0;
+  }
 }
 
 .headline p {

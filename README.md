@@ -30,7 +30,7 @@ To get a local copy up and running follow these simple example steps.
 
 
 -## Live Demo
-[Live Demo Link](https://gleennkar.github.io/Portfolio-repos/)
+[Live Demo Link]
 
 
 

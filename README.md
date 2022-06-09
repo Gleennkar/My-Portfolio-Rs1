@@ -28,8 +28,7 @@ To get a local copy up and running follow these simple example steps.
 - open with live server
 
 ## Live Demo
-[Live Demo Link](https://gleennkar.github.io/My-Portfolio-Rs1/)
-
+[Live Demo Link]
 
 ## Author
 

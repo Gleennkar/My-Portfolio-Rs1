@@ -24,8 +24,11 @@ To get a local copy up and running follow these simple example steps.
 - Chrome browser
 
 ### Setup
-- git clone https://github.com/Gleennkar/Portfolio-repos.git
+- git clone https://gleennkar.github.io/My-Portfolio-Rs1/
 - open with live server
+
+live demo
+-live demo link
 
 
 

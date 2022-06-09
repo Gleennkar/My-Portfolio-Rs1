@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 - git clone https://github.com/Gleennkar/My-Portfolio-Rs1/
 - open with live server
 
--## Live Demo
+## Live Demo
 [Live Demo Link](https://gleennkar.github.io/My-Portfolio-Rs1/)
 
 
